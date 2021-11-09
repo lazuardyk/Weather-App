@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:id="@+id/hourly_image"
+        android:src="@drawable/ic_partly_cloudy"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_time"
+            android:text="1 AM"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_condition"
+            android:text="Partly cloudy"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_temp_c"
+            android:text="26&#176;"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp">-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/movie_liked"-->
+    <!--            android:layout_width="40dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:layout_gravity="center_vertical"-->
+    <!--            android:src="@android:color/transparent" />-->
+    <!--    </LinearLayout>-->
+
+</LinearLayout>
